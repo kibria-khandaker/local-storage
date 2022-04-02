@@ -1,0 +1,6 @@
+.menuList a {
+  border: 6px solid #ff9100;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
