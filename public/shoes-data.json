@@ -1,7 +1,7 @@
 [
   {
     "id": "abc",
-    "name": "Cavalier",
+    "name": "Cavalier Dark",
     "color": "Black",
     "pairImage": "https://cdn.shopify.com/s/files/1/0419/1525/products/1024x1024-Men-Cavalier-Black-092121-3.4_672x672.jpg?v=1633034593",
     "sideImage": "https://cdn.shopify.com/s/files/1/0419/1525/products/1024x1024-Men-Cavalier-Black-LB2_672x672.jpg?v=1569069741",
@@ -10,7 +10,7 @@
   },
   {
     "id": "def",
-    "name": "Cavalier",
+    "name": "Cavalier Stone",
     "color": "Sandstone",
     "pairImage": "https://cdn.shopify.com/s/files/1/0419/1525/products/1024x1024-Men-Cavalier-Sandstone-012422-3.4_672x672.jpg?v=1646426165",
     "sideImage": "https://cdn.shopify.com/s/files/1/0419/1525/products/1024x1024-Men-Cavalier-Sandstone-012422-Side_672x672.jpg?v=1646693841",
@@ -19,7 +19,7 @@
   },
   {
     "id": "ghi",
-    "name": "Cavalier",
+    "name": "Cavalier Gray",
     "color": "Shadow Gray",
     "pairImage": "https://cdn.shopify.com/s/files/1/0419/1525/products/1024x1024-Mens-Cavalier-Shadow-Grey-190225_672x672.jpg?v=1569110766",
     "sideImage": "https://cdn.shopify.com/s/files/1/0419/1525/products/GreyCavs__copy_672x672.jpg?v=1569076665",
@@ -64,7 +64,7 @@
   },
   {
     "id": "vwx",
-    "name": "Harness",
+    "name": "Harness Black",
     "color": "Dark Brown",
     "pairImage": "https://cdn.shopify.com/s/files/1/0419/1525/products/1024x1024-Men-Harness-Brown-LB1_672x672.jpg?v=1571254620",
     "sideImage": "https://cdn.shopify.com/s/files/1/0419/1525/products/1024x1024-Men-Harness-Brown-LB2_672x672.jpg?v=1571254625",
@@ -82,7 +82,7 @@
   },
   {
     "id": "abcz",
-    "name": "Captain",
+    "name": "Captain Matte",
     "color": "Black Matte",
     "pairImage": "https://cdn.shopify.com/s/files/1/0419/1525/products/3.4_Captain_BlackMatte_672x672.jpg?v=1569226836",
     "sideImage": "https://cdn.shopify.com/s/files/1/0419/1525/products/Side_Captain_BlackMatte_672x672.jpg?v=1569226836",
