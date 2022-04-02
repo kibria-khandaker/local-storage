@@ -8,6 +8,7 @@ const MenuList = () => {
             <Link to="/">Home</Link>
             <Link to="/products">Products</Link>
             <Link to="/blog">Blog</Link>
+            <Link to="/TestLocalStorage">Test Local Storage</Link>
         </div>
     );
 };

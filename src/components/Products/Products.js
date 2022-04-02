@@ -14,16 +14,29 @@ const Products = () => {
     }, []);
 
     const handleAddToCart = (selectedShoe) => {
-        // console.log('AddToCart Handle', selectedShoe);
-        const newCart = [...cart, selectedShoe]
+        // const newCart = [...cart, selectedShoe]
+        // setCart(newCart);
+        let newCart = [];
+        const exist = cart.find((shoe) => shoe.id == selectedShoe.id);
+        if (!exist) {
+            selectedShoe.quantity = 1;
+            newCart = [...cart, selectedShoe]
+        } else {
+            const rest = cart.filter((shoe)=>shoe.id !== selectedShoe.id);
+            selectedShoe.quantity = selectedShoe.quantity + 1;
+            newCart = [...rest, selectedShoe]
+        }
+        console.log(exist);
         setCart(newCart);
     }
     const handleClearToCart = () => {
-        console.log('ClearToCart Handle');
+        // console.log('ClearToCart Handle');
+        setCart([]);
     }
 
     return (
         // <div className='grid grid-cols-1 md:grid-cols-2 lg:col-span-3'>
+        
         <div className='flex flex-col-reverse md:flex-row relative'>
             <div className='grid grid-cols-1 gap-6 p-5 md:grid-cols-2 lg:grid-cols-3  basis-12/12  md:basis-8/12 lg:basis-9/12'>
                 {

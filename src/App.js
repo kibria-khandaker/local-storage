@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import NotFound from "./components/NotFound/NotFound";
 import Products from './components/Products/Products';
+import TestLocalStorage from "./components/TestLocalStorage/TestLocalStorage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/TestLocalStorage" element={<TestLocalStorage/>} />
         <Route path="*" element={<NotFound/>} />
       </Routes>
 
